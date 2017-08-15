@@ -1,6 +1,6 @@
 export interface Pizza {
   name: string,
-  toppings: []
+  toppings: string[]
 }
 
 export type Topping = string;
