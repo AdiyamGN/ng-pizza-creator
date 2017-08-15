@@ -9,6 +9,9 @@ import { PizzaFormComponent } from './components/pizza-form/pizza-form.component
 import { PizzaNameComponent } from './components/pizza-name/pizza-name.component';
 
 import { PizzaService } from './pizza.service';
+import { PizzaSelectedComponent } from './components/pizza-selected/pizza-selected.component';
+import { PizzaButtonComponent } from './components/pizza-button/pizza-button.component';
+import { PizzaListComponent } from './components/pizza-list/pizza-list.component';
 
 
 @NgModule({
@@ -20,7 +23,10 @@ import { PizzaService } from './pizza.service';
     PizzaCreatorComponent,
     ToppingsSelectorComponent,
     PizzaFormComponent,
-    PizzaNameComponent
+    PizzaNameComponent,
+    PizzaSelectedComponent,
+    PizzaButtonComponent,
+    PizzaListComponent
   ],
   providers: [
    PizzaService
